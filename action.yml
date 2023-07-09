@@ -29,6 +29,7 @@ runs:
     - name: macOS
       if: runner.os == 'macOS'
       run: |
+        brew update
         brew install git-annex
         git annex version
       shell: bash
