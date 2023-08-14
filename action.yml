@@ -1,8 +1,8 @@
 name: 'Setup git-annex'
 description: 'Installs git-annex on Linux, macOS, or Windows'
 branding:
-  icon: 'play-circle'
-  color: 'orange'
+  icon: 'package'
+  color: 'purple'
   
 runs:
   using: 'composite'
